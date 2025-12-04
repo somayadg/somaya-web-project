@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Header & Navbar -->
+<header>
+    <nav>
+        <div class="container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#arrivals">New Arrivals</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Intro Section -->
+<section id="intro" class="intro_page">
+    <h1>Welcome to <span>Book Store</span></h1>
+    <p>Your favorite place for all kinds of books.</p>
+    <a href="#arrivals" class="learn_more">Explore Books</a>
+</section>
+
+<!-- New Arrivals -->
+<section id="arrivals">
+    <h2>New Arrivals</h2>
+    <div class="arrivals_container">
+        <div class="arrivals_item">
+            <img src="images/book1.jpg" alt="Book 1">
+            <h5>Book Title 1</h5>
+            <a href="#">View More</a>
+        </div>
+        <div class="arrivals_item">
+            <img src="images/book2.jpg" alt="Book 2">
+            <h5>Book Title 2</h5>
+            <a href="#">View More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Books -->
+<section id="featured" class="featured_book">
+    <h2>Featured Books</h2>
+    <div class="container">
+        <div class="book_item">
+            <img src="images/book3.jpg" alt="Book 3">
+            <h4>Book Title 3</h4>
+            <h5>$15.99</h5>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="book_item">
+            <img src="images/book4.jpg" alt="Book 4">
+            <h4>Book Title 4</h4>
+            <h5>$12.99</h5>
+            <a href="#">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Reviews -->
+<section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews_container">
+        <div class="r1">
+            <img src="images/user1.jpg" alt="User 1">
+            <h2>John Doe</h2>
+            <p>Great selection of books! Highly recommend.</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="r2">
+            <img src="images/user2.jpg" alt="User 2">
+            <h2>Jane Smith</h2>
+            <p>Fast delivery and excellent customer service.</p>
+            <div class="stars">⭐⭐⭐⭐</div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+    <h2>Our Blog</h2>
+    <div class="blog_container">
+        <div class="bloger">
+            <div class="bloger-image">
+                <img src="images/blog1.jpg" alt="Blog 1">
+            </div>
+            <div class="bloger-details">
+                <h2>Blog Post Title 1</h2>
+                <p>Short description about this blog post.</p>
+                <div class="blog-icons">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-share"></i>
+                </div>
+            </div>
+        </div>
+        <div class="bloger">
+            <div class="bloger-image">
+                <img src="images/blog2.jpg" alt="Blog 2">
+            </div>
+            <div class="bloger-details">
+                <h2>Blog Post Title 2</h2>
+                <p>Short description about this blog post.</p>
+                <div class="blog-icons">
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-share"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="row">
+        <div class="footer_about">
+            <h2>About the Store</h2>
+            <p>We provide the best books for all readers.</p>
+        </div>
+        <div class="quick-links">
+            <h2>Quick Links</h2>
+            <div class="footer-list">
+                <a href="#intro">Home</a>
+                <a href="#arrivals">New Arrivals</a>
+                <a href="#featured">Featured</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blog">Blog</a>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Info</h2>
+            <div class="footer-list">
+                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="tel:+1234567890">+1234567890</a>
+            </div>
+        </div>
+        <div class="follow-us">
+            <h2>Follow Us</h2>
+            <div class="footer-list">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <div class="designer">
+        Designed by <span class="designer-name">Your Name</span>
+    </div>
+</footer>
+
+</body>
+</html>
+
