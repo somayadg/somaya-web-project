@@ -429,3 +429,61 @@
   top: 67%;
   left: 7%;
 }
+
+
+
+.boxChild{
+  /*border: 1px solid var(--primary-color);*/
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 3px var(--second-color),  -1px -1px 7px var(--second-color);
+  transition:all 0.3s ease ;
+  -webkit-transition:all 0.3s ease ;
+  -moz-transition:all 0.3s ease ;
+  -ms-transition:all 0.3s ease ;
+  -o-transition:all 0.3s ease ;
+}
+.boxChild:hover{
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  -o-transform: translateY(-15px);
+}
+.boxChild img{
+  width: 100%;
+}
+.parentBox{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px ,1fr));
+  column-gap: 50px;
+}
+.imgblog2{
+  height: 270.85px;
+}
+.parentBox{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px ,1fr));
+  column-gap: 90px;
+}
+.imgblog2{
+  height: 270.85px;
+}
+.content{
+  padding: 10px;
+}
+.boxChild p{
+  margin: 15px 0px ;
+}
+.calenderHeart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+}
+.content h3{
+  color: var(--primary-color);
+}
