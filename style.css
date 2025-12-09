@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 
 }
+:root{
+    --primary-color :rgb(29, 164,164);
+    --second-color :rgb(141,146,146);
+  }
+
 .navbar {
     margin: 0;
     width: 100%;
@@ -318,11 +323,7 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
-/*
-.parent{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}*/
+
 .parent {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -357,16 +358,17 @@
 
 .rectangles{
   margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  display: flex;
   column-gap: 30px;
+  max-width: 90%;
 }
 .rect {
-   /*width: 20%;
-   */margin-top: 50px;
+    max-width:25%;
+   margin-top: 50px;
    padding-left: 8px;
    padding-bottom: 10px;
-   box-shadow: 2px 2px 2px var(--primary-color),   -2px -2px 2px var(--primary-color);
+   box-shadow: 0px 0px 5px 5px rgb(150, 228, 229);
+    border-radius: 0.4%;
    transition:all 0.3s ease ;
    -webkit-transition:all 0.3s ease ;
    -moz-transition:all 0.3s ease ;
@@ -374,12 +376,21 @@
    -o-transition:all 0.3s ease ;
 }
 .rect:hover{
-   box-shadow: 0 2px 6px var(--second-color);
+   box-shadow: 0 2px 6px rgb(57, 169, 162);
    transform: translateY(-12px);
    -webkit-transform: translateY(-12px);
    -moz-transform: translateY(-12px);
    -ms-transform: translateY(-12px);
    -o-transform: translateY(-12px);
+}
+#reviews .container{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content : center;
+}
+#reviews p{
+    font-ize:
 }
 .imgQoute img {
   border-radius: 50%;
@@ -410,16 +421,6 @@
   text-align: center;
   font-size: 2em;
 }
-/*
-.banner{
-  margin-bottom: 30px;
-  position: absolute;
-
-}
-.btn11{
- position: relative;
- 
-}*/
 .btnImg{ 
     position: relative;
   margin-bottom: 50px;
@@ -433,7 +434,6 @@
 
 
 .boxChild{
-  /*border: 1px solid var(--primary-color);*/
   margin-bottom: 30px;
   box-shadow: 1px 1px 3px var(--second-color),  -1px -1px 7px var(--second-color);
   transition:all 0.3s ease ;
