@@ -293,6 +293,62 @@
 
 
 
+#Featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+    width: 100%;
+}
 
+#Featured .container {
+    max-width: 90%;
+    margin: auto;
+}
 
+#Featured h1 {
+    font-size: 2.8vw;
+    margin-bottom: 3%;
+}
 
+#Featured .cards-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+#Featured .cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vw;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-right: 2vw; 
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #fbf8f8 ;
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar {
+    height: 0.8vh;       
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar-track {
+    background: #f0f0f0;  
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar-thumb {
+    background: rgb(69, 183, 196);  
+    border-radius: 5vw;             
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(50, 150, 170);
+}
+
+#Featured .cards-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(57,169,162) #f0f0f0;
+}
