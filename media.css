@@ -1,0 +1,141 @@
+@media screen and (max-width: 1000px) {
+    .navbar{
+        height: auto;
+    }
+    .cards .card {
+        width: 30% ; 
+        margin-bottom: 2%;
+    }
+    .cards img{
+        height: 20%;
+        width: 25%;
+    }
+    .cards h3{
+        font-size: 100%;
+    }
+    .cards p{
+        font-size: 80%;
+    }
+    .cards .card {
+        width: 60% ; 
+        gap: 1rem !important;
+        height: 25% !important;
+    }
+    .cards img{
+        height: 20%;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav_list {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .nav_logo, .nav_icons1, .nav_icons2 {
+        display: none;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+    .navbar-menu {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 1vh;        
+        background: white;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        gap: 1rem;
+    }
+    .navbar-menu li a:hover {
+        color: rgb(57, 169, 162);
+        
+    }
+    .nav_icons img{
+        margin-left: 10vw;
+    }
+    .navbar{
+        height: 4vw;
+    }
+    .navbar-menu ul{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 1222px) {
+    header{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        top: 0;
+    }
+    header .container{
+    flex-direction: column;
+    text-align: center;
+
+    }
+    header h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+
+    }
+    
+    header p{
+    font-size: 100%;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    }
+    header .button{
+    text-align: center;
+    }
+    header img{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        width: 100% ; 
+        height: auto;}
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 602px){
+    .cards {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;   
+    }
+    .cards .card {
+        width: 60%;       
+        height: 30% !important;    
+        margin-bottom: 5%;
+    }
+    .cards p{
+        margin-bottom: 3% !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cards .card {
+        width: 60% ; 
+        gap: 1rem !important;
+        height: 28%;
+    }
+}
+
