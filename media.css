@@ -101,6 +101,7 @@
     }
     .navbar-menu.show {
         display: flex;
+        margin-top: 2.2vw;
     }
     .navbar-menu {
         display: none;
