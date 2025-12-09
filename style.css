@@ -391,3 +391,41 @@
   padding-top: 8px;
   padding-bottom: 10px;
 }
+.qoute{
+ padding-right: 8px;
+  font-size: 6em;
+  color:rgb(211, 213, 213)
+}
+.imgQoute{
+  padding-top: 0px;
+}
+.pr{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.name1{
+  font-size: 1.5em;
+}
+.header5{
+  text-align: center;
+  font-size: 2em;
+}
+/*
+.banner{
+  margin-bottom: 30px;
+  position: absolute;
+
+}
+.btn11{
+ position: relative;
+ 
+}*/
+.btnImg{ 
+    position: relative;
+  margin-bottom: 50px;
+}
+.btn11{
+  position: absolute;
+  top: 67%;
+  left: 7%;
+}
