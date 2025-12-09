@@ -45,6 +45,11 @@
     padding: 0 10px;
     }
 }
+@media screen and (max-width: 1200px) {
+    .Featured .feat_btn {
+        height: 3vw;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .navbar{
@@ -70,6 +75,18 @@
     }
     .navbar{
         height: auto;
+    }
+    #Featured .cards .card{
+        width: 1vw !important;
+    }
+    #Featured p{
+        margin-bottom: 0.5vw !important;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #Featured .cards .card{
+        height: auto !important;
     }
 }
 
@@ -102,6 +119,9 @@
         color: rgb(57, 169, 162);
         
     }
+    .navbar-menu.show {
+        display: flex;
+    }
     .nav_icons img{
         margin-left: 10vw;
     }
@@ -123,6 +143,24 @@
     #about .container {
         margin-top: 10%;
     }
+    #Featured .container {
+        width: 95% !important;
+        margin: 0;
+    }
+    #Featured .cards .card{
+        min-width: 20vw !important;
+        height: auto !important;
+    }
+    #Featured .cards {
+        width: 80% !important;
+        flex-wrap: nowrap !important;
+    }
+    #Featured .cards-wrapper {
+        overflow-x: auto !important;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -139,9 +177,6 @@
     }
     .cards p{
         margin-bottom: 3% !important;
-    }
-    #about .container {
-        margin-top: 10%;
     }
 }
 
