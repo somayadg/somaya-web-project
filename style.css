@@ -215,3 +215,33 @@
 
 
 
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    gap: 10%;
+}
+
+.about-text {
+    max-width: 40%;
+    color: #000;
+}
+
+.about-text h1 {
+    font-size: 2.8vw;
+}
+
+.about-text p {
+    font-size: 1vw;
+    margin: 10% 0;
+}
+
+
