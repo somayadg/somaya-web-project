@@ -352,3 +352,72 @@
     scrollbar-width: thin;
     scrollbar-color: rgb(57,169,162) #f0f0f0;
 }
+
+#Featured .card {
+    min-width: 15vw;
+    border: 0.1vw solid rgb(57,169,162) 
+    text-align: center;
+    margin-left: 1.39vw;
+    margin-bottom: 0.69vw;
+    padding: 0.35vw;
+    white-space: nowrap;
+    transition:all 0.3s ease ;
+    -webkit-transition:all 0.3s ease ;
+    -moz-transition:all 0.3s ease ;
+    -ms-transition:all 0.3s ease ;
+    -o-transition:all 0.3s ease ;
+}
+
+#Featured .card:hover {
+    box-shadow: 0 0 7px rgb(57, 169, 162);
+    transform: translateY(-5%);
+}
+
+#Featured .card img {
+    width: 100%;
+    max-height: 18vw;
+    object-fit: cover;
+}
+
+#Featured .card h3 {
+    font-size: 1.5vw;
+    margin: 1vh 0;
+}
+
+#Featured .card p {
+    font-size: 1.2vw;
+    color: #8e8d8d;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+#Featured .span1 {
+    font-size: 1vw;
+    color: rgb(57, 169, 162);
+    font-weight: 500;
+}
+
+#Featured .span2{
+    color: #000;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+#Featured .feat-btn {
+    margin-top: 2%;
+    height: 3vw;
+    color: #000;
+    background-color: #fff;
+    border: 0.15vw solid rgb(57, 169, 162);
+    box-shadow: 0 0 3px rgb(57, 169, 162);
+    padding: 5% 20%;  
+    font-size: 1vw; 
+    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
+}
+
+#Featured .feat-btn:hover {
+    background-color: rgb(57, 169, 162);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(69,183,196,0.4);
+    transform: translateY(-5%);
+}
