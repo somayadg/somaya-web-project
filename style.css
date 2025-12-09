@@ -244,4 +244,46 @@
     margin: 10% 0;
 }
 
+.about-text .btn {
+    color: #fff;
+    background-color: rgb(57, 169, 162);
+    padding: 1vh 3vw;
+    border: none;
+    font-size: 1.3vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.about-text .btn:hover {
+    background-color: rgb(57, 169, 162);
+    transform: translateY(-5%);
+}
+
+.about-img {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text .btn {
+    margin-top: 2%;
+    color: #fff;
+    background-color: rgb(57, 169, 162);
+    padding: 1.5% 3.5%;
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about-text .btn:hover {
+    background-color: rgb(57, 169, 162);
+    transform: translateY(-10%);
+    box-shadow: 0 5px 15px rgba(69,183,196,0.4);
+}
