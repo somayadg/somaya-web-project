@@ -1,117 +1,3 @@
-@media screen and (max-width: 1000px) {
-    .navbar{
-        height: auto;
-    }
-<<<<<<< HEAD
-=======
-    :root{
-        --primary-color :rgb(29, 164,164);
-    }
->>>>>>> somaya
-    .cards .card {
-        width: 30% ; 
-        margin-bottom: 2%;
-    }
-    .cards img{
-        height: 20%;
-        width: 25%;
-    }
-    .cards h3{
-        font-size: 100%;
-    }
-    .cards p{
-        font-size: 80%;
-    }
-    .cards .card {
-        width: 60% ; 
-        gap: 1rem !important;
-        height: 25% !important;
-    }
-    .cards img{
-        height: 20%;
-        width: 20%;
-    }
-<<<<<<< HEAD
-=======
-    .close{
-        color: var(--primary-color);
-    }
-    #menuCheck:checked ~.navUl{
-        display: inherit;
-    }
-    #menuCheck:checked ~ label .open{
-        display: none;
-    }
-    #menuCheck:checked ~ label .close{
-        display: inherit;
-    }
-    .close{
-        display: none;
-    }
-     label.open{
-        display: inherit;
-    }
-     label {
-        display: inherit;
-    }
-    .boxes{
-        flex-direction: column;
-        margin-top: 20px;
-        margin-bottom:20px;
-    }
-    .box{
-        width: 80%; 
-    }
-    .footContainer{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 50px;
-    }
-
->>>>>>> somaya
-}
-
-@media screen and (max-width: 600px) {
-    .nav_list {
-        display: block;
-        width: 30px;
-        cursor: pointer;
-    }
-    .nav_logo, .nav_icons1, .nav_icons2 {
-        display: none;
-    }
-    .navbar-menu.show {
-        display: flex;
-    }
-    .navbar-menu {
-        display: none;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 1vh;        
-        background: white;
-        width: 100%;
-        padding: 15px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        gap: 1rem;
-    }
-    .navbar-menu li a:hover {
-        color: rgb(57, 169, 162);
-        
-    }
-    .nav_icons img{
-        margin-left: 10vw;
-    }
-    .navbar{
-        height: 4vw;
-    }
-    .navbar-menu ul{
-        flex-direction: column;
-    }
-    
-}
 
 @media (max-width: 1222px) {
     header{
@@ -159,6 +45,125 @@
     padding: 0 10px;
     }
 }
+@media screen and (max-width: 1200px) {
+    .Featured .feat_btn {
+        height: 3vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        height: auto;
+    }
+    .cards .card {
+        width: 30% ; 
+        margin-bottom: 2%;
+    }
+    .cards img{
+        height: 20%;
+        width: 25%;
+    }
+    .card svg{
+        height: 20%;
+        width: 25%;
+    }
+    .cards h3{
+        font-size: 100%;
+    }
+    .cards p{
+        font-size: 80%;
+    }
+    .navbar{
+        height: auto;
+    }
+    #Featured .cards .card{
+        width: 1vw !important;
+    }
+    #Featured p{
+        margin-bottom: 0.5vw !important;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #Featured .cards .card{
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav_list {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .nav_logo, .nav_icons1, .nav_icons2 {
+        display: none;
+    }
+    .navbar-menu.show {
+        display: flex;
+        margin-top: 2.2vw;
+    }
+    .navbar-menu {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 1vh;        
+        background: white;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        gap: 1rem;
+    }
+    .navbar-menu li a:hover {
+        color: rgb(57, 169, 162);
+        
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+    .nav_icons img{
+        margin-left: 10vw;
+    }
+    .navbar{
+        height: 4vw;
+    }
+    .navbar-menu ul{
+        flex-direction: column;
+    }
+    .cards .card {
+        width: 60% ; 
+        gap: 1rem !important;
+        height: 25% !important;
+    }
+    .cards img{
+        height: 20%;
+        width: 20%;
+    }
+    #about .container {
+        margin-top: 10%;
+    }
+    #Featured .container {
+        width: 95% !important;
+        margin: 0;
+    }
+    #Featured .cards .card{
+        min-width: 20vw !important;
+        height: auto !important;
+    }
+    #Featured .cards {
+        width: 80% !important;
+        flex-wrap: nowrap !important;
+    }
+    #Featured .cards-wrapper {
+        overflow-x: auto !important;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 @media screen and (max-width: 602px){
     .cards {
